@@ -29,5 +29,7 @@ function rollDice(){
         } 
         diceResult.textContent = `dice: ${values.join(', ')}`;
         diceImages.innerHTML = images.join(''); 
+        diceResult.textContent = "";
+        diceImages.innerHTML = ""; 
     }
 }
