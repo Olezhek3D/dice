@@ -20,6 +20,7 @@ function rollDice(){
         myH2.textContent = "CRAZY? THIS IS TOO MUCH!!";
         diceResult.textContent = "";
         diceImages.innerHTML = ""; 
+        myh2s.textContent = "";
     }
     else{
         for(let i = 0; i < numOfDice; i++){
@@ -29,7 +30,7 @@ function rollDice(){
         } 
         diceResult.textContent = `dice: ${values.join(', ')}`;
         diceImages.innerHTML = images.join(''); 
-        diceResult.textContent = "";
-        diceImages.innerHTML = ""; 
+        myH2.textContent = "";
+        myh2s.textContent = "";
     }
 }
